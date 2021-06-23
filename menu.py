@@ -31,8 +31,8 @@ class MainMenu():
     def __init__(self, main):
         self.main = main
 
-        self.title = Label(self.main, font=('Sans-Serif 60 bold'), bg='white', text='MADLIB')
-        self.title.place(relx=0.5, rely=0.4, anchor='center')
+        self.title = Label(self.main, font=('Sans-Serif 50 bold'), bg='white', text='MADLIB\nROULETTE')
+        self.title.place(relx=0.5, rely=0.35, anchor='center')
         self.made = Label(self.main, font=('Sans-Serif 20 bold'), bg='white', text='made with python')
         self.made.place(relx=0.5, rely=0.5, anchor='center')
         self.start = Button(self.main, font=('Sans-Serif 30 bold'), bg='Yellow', activebackground='Yellow', text='START', command=self.startMadlib)
